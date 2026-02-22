@@ -1,5 +1,4 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
-import type { MovieApiArgs } from "./movieApiSlice.types";
 
 export const movieApiSlice = createApi({
   reducerPath: "movieApi",
@@ -37,7 +36,7 @@ export const movieApiSlice = createApi({
       }),
     }),
     getMoviesByDiscover: builder.query({
-      query: (args: MovieApiArgs) => ({
+      query: (args) => ({
         url: "/discover/movie",
         params: args,
       }),
