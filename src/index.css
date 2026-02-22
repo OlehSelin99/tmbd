@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  width: 100%;
+  min-width: 320px;
+  min-height: 100vh;
+  font-size: 16px;
+  background-color: var(--bg-color);
+}
+
+:root {
+  --bg-color: #f0f0f0;
+  --foreground-color: #003cff;
+  --primary-text-color: #000;
+  --secondary-text-color: #ffffff;
+  --toggle-bg-color: #f0eb9d;
+  --toggle-fg-color: #ffd000;
+}

@@ -1,0 +1,12 @@
+.popular-movies-title{
+    text-align: center;
+}
+
+.popular-movies-section {
+    padding: 20px;
+}
+
+.movies-grid{
+    display: flex;
+    flex-direction: row;
+}

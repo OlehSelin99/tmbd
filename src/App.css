@@ -1,0 +1,25 @@
+#root,
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  height: 100%;
+  width: 100%;
+  background-color: var(--bg-color);
+  color: var(--primary-text-color);
+  transition: background-color 0.3s ease-in-out;
+}
+
+[data-theme="dark"] {
+  --bg-color: #1e1e1e;
+  --foreground-color: #ffffff;
+  --primary-text-color: #ffffff;
+  --secondary-text-color: #cccccc;
+  --toggle-bg-color: #555555;
+  --toggle-fg-color: #ffffff;
+}
+
+.container-content {
+  flex: 1 0 auto;
+  padding-bottom: 60px;
+}

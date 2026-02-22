@@ -1,0 +1,12 @@
+.top-rated-movies-section {
+  padding: 20px;
+}
+
+.top-rated-movies-title {
+  text-align: center;
+}
+
+.movies-grid {
+  display: flex;
+  flex-direction: row;
+}

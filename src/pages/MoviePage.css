@@ -1,0 +1,32 @@
+.movie-page-content {
+  margin: 10px;
+  position: relative;
+  top: 80px; /* Відповідає висоті Header */
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.movie-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.movie-page-container {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.movie-overview {
+  max-width: 800px;
+  text-align: center;
+}
+
+.movie-overview-text {
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 10px;
+}

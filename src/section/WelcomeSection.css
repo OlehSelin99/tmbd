@@ -1,0 +1,35 @@
+.welcome-image {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.welcome-content {
+  position: absolute;
+  color: white;
+  font: 1em sans-serif;
+  top: 300px;
+  left: 50px;
+}
+
+.welcome-title {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.search-button{
+  background-color: #18055c;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 0%;
+  margin: 10px 0;
+}
+
+.welcome-search{
+  padding: 5px;
+  font-size: 1em;
+
+}

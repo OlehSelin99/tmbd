@@ -1,0 +1,23 @@
+.now-playing-title{
+    text-align: center;
+}
+
+.now-playing-section {
+    padding: 20px;
+}
+
+.movies-grid{
+    display: flex;
+    flex-direction: row;
+}
+
+.view-more-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

@@ -1,0 +1,11 @@
+.footer {
+  background-color: var(--bg-color);
+  color: var(--primary-text-color);
+  text-align: center;
+  background-color: rgb(27, 134, 227);
+  padding: 10px 0;
+  position: relative;
+  bottom: 0;
+
+  width: 100%;
+}

@@ -1,0 +1,44 @@
+.movie-card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1em;
+  border-radius: 10px;
+  padding: 1em;
+  width: 220px;
+}
+
+.movie-image-container {
+  height: 300px;
+  width: 200px;
+  margin: 1em;
+  border-radius: 10px;
+  position: relative; /* Для позиціонування рейтингу */
+}
+
+.movie-image-container img {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+.movie-title {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-top: 0.5em;
+}
+
+.movie-rating {
+  margin: 5px;
+  position: absolute;
+  /* Відступ від низу */
+  right: 5px;
+  bottom: 1px;
+  background-color: rgba(0, 0, 0, 0.7); /* Напівпрозорий фон */
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 4px; /* Або 50% для кола */
+  font-size: 0.9rem;
+  font-weight: bold;
+  backdrop-filter: blur(4px); /* Ефект розмиття фону за рейтингом */
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
